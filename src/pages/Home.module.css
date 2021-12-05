@@ -1,0 +1,14 @@
+.people-form-table {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1.5rem;
+  padding: 1rem;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .people-form-table {
+    flex-direction: row;
+  }
+}

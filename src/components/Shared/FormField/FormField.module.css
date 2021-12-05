@@ -1,0 +1,13 @@
+.field{
+  display: flex;
+  justify-content: space-between;
+}
+.field > input{
+  flex-basis: 60%;
+}
+.error-message-container{
+  min-height: 1.5rem;
+  color:hsl(0, 100%, 69%);
+  font-size: 0.75rem;
+  font-weight: 500;
+}

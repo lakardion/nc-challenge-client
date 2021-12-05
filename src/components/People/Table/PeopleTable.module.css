@@ -1,0 +1,20 @@
+.people-table {
+  flex-grow: 1;
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+  background: white;
+}
+.people-table th {
+  border: 1px solid black;
+}
+.people-table td {
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+  .people-table {
+    align-self: flex-start;
+  }
+}
